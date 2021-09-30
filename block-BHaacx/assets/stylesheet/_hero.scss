@@ -31,6 +31,7 @@
 @media (min-width: 768px){
   .hero{
     grid-template-columns: 1fr 1fr;
+    height: 80vh;
     article:nth-child(2){
       padding: 1rem 2rem;
       align-items: center;

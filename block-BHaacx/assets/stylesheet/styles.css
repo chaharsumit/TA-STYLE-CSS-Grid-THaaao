@@ -269,6 +269,7 @@ button a {
   .hero {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    height: 80vh;
   }
   .hero article:nth-child(2) {
     padding: 1rem 2rem;
@@ -511,6 +512,7 @@ button a {
   .experiences {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(auto, 30rem);
   }
   .experiences .experience-article {
     -ms-flex-line-pack: center;
