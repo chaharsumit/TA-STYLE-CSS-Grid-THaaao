@@ -315,20 +315,56 @@ button a {
   display: -ms-grid;
   display: grid;
   gap: 1rem;
+  background-color: #ecaf4e;
+}
+
+.about .skills small {
+  color: #ffffff;
 }
 
 .about .progress-container {
   display: -ms-grid;
   display: grid;
-  gap: 0.5rem;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  gap: 1rem;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
 }
 
-.about progress {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+.about .progress-container .skill-header {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 1rem;
+}
+
+.about .progress-container .skill-header h6 {
+  border-bottom: 3px solid #383838;
+  color: #383838;
+  font-weight: 700;
+}
+
+.about .progress-container .skill-header p {
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+  text-align: end;
+}
+
+.about .progress-container .skill-header h6, .about .progress-container .skill-header p {
+  padding-bottom: 0.8rem;
+}
+
+.about .progress-container div:nth-child(1) {
+  -ms-grid-columns: 90% 10%;
+      grid-template-columns: 90% 10%;
+}
+
+.about .progress-container div:nth-child(2) {
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+}
+
+.about .progress-container div:nth-child(3) {
+  -ms-grid-columns: 80% 20%;
+      grid-template-columns: 80% 20%;
 }
 
 @media (min-width: 768px) {
